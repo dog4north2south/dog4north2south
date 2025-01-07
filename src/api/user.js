@@ -3,8 +3,15 @@ import store from '../store/index'
 
 export default {
     verifyToken: function (token) {
+        console.log('verifyToken');
+        // return request({
+        //     url: '/user?access_token=' + token
+        // })
         return request({
-            url: '/user?access_token=' + token
+            url: '/user',
+            headers: {
+                Authorization: `token ${token}`
+            }
         })
     },
     getInfo: function () {
@@ -25,7 +32,7 @@ export default {
             url: `/users/${githubUsername}/following?page=${query.page}&per_page=${query.pageSize}`
         })
     },
-    info:function (githubUsername) {
+    info: function (githubUsername) {
         return request({
             url: `/users/${githubUsername}`
         })
