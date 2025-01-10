@@ -4,6 +4,14 @@
 ![](https://img.shields.io/github/stars/gitHub-laziji/VBlog.svg?style=social)
 
 
+npm run deploy
+git subtree split --prefix dist -b gh-pages
+git push origin gh-pages
+---
+
+git subtree push --prefix dist origin gh-pages
+---
+
 ## [English Documents](README-EN.md)
 
 ## 简介
