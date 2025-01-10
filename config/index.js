@@ -49,8 +49,8 @@ module.exports = {
 
         // Paths
         assetsRoot: path.resolve(__dirname, '../dist'),
-        assetsSubDirectory: path.resolve(__dirname, '../dist/static'),
-        assetsPublicPath: process.env.NODE_ENV === 'production' ? path.resolve(__dirname, '../dist') : '/', //'/',
+        assetsSubDirectory: 'static',
+        assetsPublicPath: process.env.NODE_ENV === 'production' ? '/dist' : '/',
 
         /**
          * Source Maps
