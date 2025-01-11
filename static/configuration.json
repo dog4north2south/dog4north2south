@@ -1,19 +1,19 @@
 {
     "githubUsername": "dog4s2n",
-    "blogTitle": "标题",
-    "blogDescribe": "简介",
-    "htmlTitle": "标签页标题",
+    "blogTitle": "狗南北",
+    "blogDescribe": "从前有只狗, 从南跑到北",
+    "htmlTitle": "狗南北",
     "fontColor": "#ffffff",
+    "audioAutoPlay": true,
     "useBackgroundImage": false,
-    "backgroundColorLeft": "#2690F9",
-    "backgroundColorRight": "#FC2D2D",
+    "backgroundColorLeft": "black",
+    "backgroundColorRight": "red",
     "audioUrl": "https://music.163.com/song/media/outer/url?id=2641867659.mp3",
     "mini": false,
     "webSites": [
         {
-            "name": "谷歌",
-            "url": "http://www.google.com"
+            "name": "v2ex",
+            "url": "https://v2ex.com/"
         }
-    ],
-    "audioAutoPlay": true
+    ]
 }
