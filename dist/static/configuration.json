@@ -1,0 +1,19 @@
+{
+    "githubUsername": "dog4s2n",
+    "blogTitle": "狗南北",
+    "blogDescribe": "从前有只狗, 从南跑到北",
+    "htmlTitle": "狗南北",
+    "fontColor": "#ffffff",
+    "audioAutoPlay": true,
+    "useBackgroundImage": false,
+    "backgroundColorLeft": "black",
+    "backgroundColorRight": "red",
+    "audioUrl": "https://music.163.com/song/media/outer/url?id=2641867659.mp3",
+    "mini": false,
+    "webSites": [
+        {
+            "name": "v2ex",
+            "url": "https://v2ex.com/"
+        }
+    ]
+}
