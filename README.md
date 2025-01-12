@@ -10,6 +10,7 @@ git push origin gh-pages
 ---
 
 git subtree push --prefix dist origin gh-pages
+git subtree push --prefix=dist origin gh-pages
 ---
 
 ## [English Documents](README-EN.md)
