@@ -117,7 +117,7 @@ export default {
     data() {
         return {
             music: {
-                isPlay: True,
+                isPlay: true,
                 currentTime: 0,
                 maxTime: 0,
                 volume: 100
