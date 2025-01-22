@@ -3,6 +3,11 @@
 ![](https://img.shields.io/github/languages/top/github-laziji/VBlog.svg?style=flat)
 ![](https://img.shields.io/github/stars/gitHub-laziji/VBlog.svg?style=social)
 
+npm -v
+10.8.2
+node -v
+v18.20.5
+
 
 npm run deploy
 git subtree split --prefix dist -b gh-pages
